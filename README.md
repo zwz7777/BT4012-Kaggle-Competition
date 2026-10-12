@@ -2,17 +2,14 @@
 
 ## Project Overview
 
-This project compares different machine learning models for Bitcoin transaction fraud detections. The aim is to find the most suited model.
+This project compares different machine learning models for Bitcoin transaction fraud detections. The aim is to find the most suited model. The data comes from the online Kaggle competition website.
 
 ## Repository Contents
 
 - `model.ipynb`: Main notebook containing data preparation, feature engineering, model training, evaluation and submission-file generation.
 - `evaluation.ipynb`: Notebook with all models' evaluation metrics.
 - `requirements.txt`: Required Python packages and their versions.
-
-## Data
-
-The data comes from the [competition name](INSERT_COMPETITION_URL).
+- `data/README.md`: Instructions for downloading and organising the data.
 
 ## Approach
 
@@ -47,7 +44,7 @@ Graph features are constructed before splitting the data and may include informa
 ## How to Run
 
 1. Download or clone this repository.
-2. Use Python [version used].
+2. Use Python.
 3. Install the dependencies:
 
    ```bash
@@ -60,23 +57,6 @@ Graph features are constructed before splitting the data and may include informa
 
 The notebook saves the competition submission to `[output path/filename]`.
 
-Approximate runtime: [runtime and hardware used].
-
-## Results
-
-The competition evaluation metric is **[metric name]**, where **[higher/lower]** is better.
-
-| Model | Evaluation setting | Score |
-|---|---|---|
-| Competition baseline | [Evaluation setting] | [Score] |
-| Final model: [name] | [Same evaluation setting] | [Score] |
-
-Additional model-comparison results are shown in the notebook. Cross-validation results and Kaggle leaderboard results are reported separately because they use different evaluation data.
-
 ## Reproducibility
 
 Package versions are listed in `requirements.txt`. Random seeds used for data splitting, resampling and model training are recorded in the notebook.
-
-Final model: [model name and configuration, or location in notebook].
-
-Kaggle submission score: [score and whether it is from the public or private leaderboard].
