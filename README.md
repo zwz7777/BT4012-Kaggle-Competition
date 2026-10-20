@@ -52,10 +52,10 @@ Graph features are constructed before splitting the data and may include informa
    ```
 
 4. Download the competition data from the Kaggle website and place it in `data/`.
-5. Open `model.ipynb` in [Jupyter / your tested environment].
+5. Open `model.ipynb` in a Jupyter-compatible environment (e.g. VS Code).
 6. Restart the notebook kernel and run all cells from top to bottom.
 
-The notebook saves the competition submission to `[output path/filename]`.
+Running the notebook will generate the competition submission file in the repository’s root directory.
 
 ## Reproducibility
 
