@@ -2,7 +2,7 @@
 
 The CSV files are not included in this repository because of their size.
 
-Download the data from the Kaggle competition and place the 3 downloaded CSV files in this data folder:
+Download the data from the Kaggle competition website and place the 3 downloaded CSV files in this data folder:
 - train.csv
 - test.csv
 - txs_edgelist.csv
